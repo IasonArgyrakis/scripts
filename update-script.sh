@@ -32,7 +32,7 @@ sudo apt dist-upgrade --yes
 echo
 
 echo -e "step 6: ${GREEN}remove unused packages${NOCOLOR}"
-sudo apt --purge autoremove --yes
+sudo apt-get  autoremove --yes
 
 echo
 
